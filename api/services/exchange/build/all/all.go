@@ -2,9 +2,9 @@
 package all
 
 import (
-	"github.com/davidarkless/latice/app/checkapp"
-	"github.com/davidarkless/latice/app/sdk/mux"
-	"github.com/davidarkless/latice/foundation/web"
+	"github.com/davidarkless/block-exchange/app/checkapp"
+	"github.com/davidarkless/block-exchange/app/sdk/mux"
+	"github.com/davidarkless/block-exchange/foundation/web"
 )
 
 // Routes constructs the add value which provides the implementation of

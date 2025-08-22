@@ -1,4 +1,4 @@
-module github.com/davidarkless/latice
+module github.com/davidarkless/block-exchange
 
 go 1.25.0
 

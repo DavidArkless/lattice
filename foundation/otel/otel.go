@@ -4,7 +4,7 @@ package otel
 import (
 	"context"
 	"fmt"
-	"github.com/davidarkless/latice/foundation/logger"
+	"github.com/davidarkless/block-exchange/foundation/logger"
 	"net/http"
 	"time"
 

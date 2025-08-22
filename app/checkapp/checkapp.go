@@ -3,10 +3,10 @@ package checkapp
 
 import (
 	"context"
-	"github.com/davidarkless/latice/app/sdk/errs"
-	"github.com/davidarkless/latice/app/sdk/sqldb"
-	"github.com/davidarkless/latice/foundation/logger"
-	"github.com/davidarkless/latice/foundation/web"
+	"github.com/davidarkless/block-exchange/app/sdk/errs"
+	"github.com/davidarkless/block-exchange/app/sdk/sqldb"
+	"github.com/davidarkless/block-exchange/foundation/logger"
+	"github.com/davidarkless/block-exchange/foundation/web"
 	"net/http"
 	"os"
 	"runtime"

@@ -6,12 +6,12 @@ import (
 	"expvar"
 	"fmt"
 	"github.com/ardanlabs/conf/v3"
-	"github.com/davidarkless/latice/api/services/controlplane/build/all"
-	"github.com/davidarkless/latice/app/sdk/debug"
-	"github.com/davidarkless/latice/app/sdk/mux"
-	"github.com/davidarkless/latice/app/sdk/sqldb"
-	"github.com/davidarkless/latice/foundation/logger"
-	"github.com/davidarkless/latice/foundation/otel"
+	"github.com/davidarkless/block-exchange/api/services/exchange/build/all"
+	"github.com/davidarkless/block-exchange/app/sdk/debug"
+	"github.com/davidarkless/block-exchange/app/sdk/mux"
+	"github.com/davidarkless/block-exchange/app/sdk/sqldb"
+	"github.com/davidarkless/block-exchange/foundation/logger"
+	"github.com/davidarkless/block-exchange/foundation/otel"
 	"net/http"
 	"os"
 	"os/signal"
@@ -35,7 +35,7 @@ func main() {
 		return otel.GetTraceID(ctx)
 	}
 
-	log = logger.NewWithEvents(os.Stdout, logger.LevelInfo, "SALES", traceIDFn, events)
+	log = logger.NewWithEvents(os.Stdout, logger.LevelInfo, "CONTROL", traceIDFn, events)
 
 	//-------------------------------------------------------------------------
 

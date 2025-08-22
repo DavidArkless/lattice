@@ -4,7 +4,7 @@ package delegate
 
 import (
 	"context"
-	"github.com/davidarkless/latice/foundation/logger"
+	"github.com/davidarkless/block-exchange/foundation/logger"
 )
 
 // These types are just for documentation so we know what keys go

@@ -1,8 +1,8 @@
 package checkapp
 
 import (
-	"github.com/davidarkless/latice/foundation/logger"
-	"github.com/davidarkless/latice/foundation/web"
+	"github.com/davidarkless/block-exchange/foundation/logger"
+	"github.com/davidarkless/block-exchange/foundation/web"
 	"net/http"
 
 	"github.com/jmoiron/sqlx"
